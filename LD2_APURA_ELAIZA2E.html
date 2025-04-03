@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miss ELL Milktea Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ee8d0e;
+    }
+    header {
+      background-color: #ff6f61;
+      padding: 15px;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      background-color: #794706;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      padding: 14px 20px;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
+    nav a:hover {
+      background-color: #575757;
+      color: #fff;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin: 20px 0;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .section h2 {
+      color: #ff6f61;
+      margin-bottom: 10px;
+    }
+    .product-list {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .product {
+      flex: 1 1 calc(25% - 20px);
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product button {
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #e0554d;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Miss ELL Milktea Shop</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#featured">Featured Products</a>
+  <a href="#about">About Us</a>
+  <a href="#support">Customer Support</a>
+</nav>
+
+<div class="container">
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h2>Home</h2>
+    <p>Enjoy our freshly brewed milk teas, just for you!</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section">
+    <h2>Menu</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\classic.jpg" alt="Classic Milk Tea">
+        <h3>Classic Milk Tea</h3>
+        <p>A timeless favorite made with black tea, milk, and sweetener, usually served with tapioca pearls (boba).</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\taro.jpg" alt="Taro Milk Tea">
+        <h3>Taro Milk Tea</h3>
+        <p>Creamy and sweet with a distinct purple hue, made with taro root powder or puree mixed with milk and tea.</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\matcha.jpg" alt="Matcha Milk Tea">
+        <h3>Matcha Milk Tea</h3>
+        <p>A vibrant green drink made with premium matcha powder, milk, and a touch of sweetness, creating a smooth and slightly earthy flavor.</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\bobba.jpg" alt="Bubba Milk Tea">
+        <h3>Bubba Milk Tea</h3>
+        <p>The flavor is best when using fresh fruit syrup or honeydew powder. It’s often served iced for a cool treat.</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section id="featured" class="section">
+    <h2>Featured Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\mango.jpg" alt="Mango Milk Tea">
+        <h3>Mango Milk Tea</h3>
+        <p>Sweet and tangy mango blended with milk, offering a tropical twist on your classic milk tea.</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="product">
+        <img src="C:\Users\USER\Downloads\lychee.jpg" alt="Lychee Milk Tea">
+        <h3>Lychee Milk Tea</h3>
+        <p>Refreshing and fragrant lychee combined with creamy milk, creating a sweet and exotic drink.</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Support Section -->
+  <section id="support" class="section">
+    <h2>Customer Support</h2>
+    <p>Need help? Contact us at <a href="ell:support@milkteashop.com">support@milkteashop.com</a> or call us at (123) 456-7890. We're here for you!</p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Miss ELL Milktea Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
